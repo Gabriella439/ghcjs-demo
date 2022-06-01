@@ -1,0 +1,10 @@
+cabal-version:      3.0
+name:               ghcjs-demo
+version:            1.0.0
+license:            BSD-3-Clause
+
+executable ghcjs-demo
+    main-is:          Main.hs
+    build-depends:    base
+                    , ghcjs-base
+    default-language: Haskell2010
